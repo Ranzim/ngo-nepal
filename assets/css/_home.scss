@@ -1,0 +1,29 @@
+.bgimg{
+    .carousel-inner{
+        .carousel-item{
+           max-height: 80vh;
+            img{
+            height: auto;
+       
+            object-fit: cover;
+            filter: brightness(50%);
+            }
+        }
+    }
+}
+
+
+// about us  and   its some details
+.about-main-point{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .main-details{
+        .details-p{
+            // letter-spacing: 0.5px;
+            word-spacing: 3px;
+        }
+    }
+}

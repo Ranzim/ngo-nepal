@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Old Standard TT", serif;
+}
+
+h1 {
+  padding-top: 0px;
+}
+
+h2 {
+  padding: 0;
+}
+
+h3 {
+  padding: 0%;
+}
+
+h4 {
+  padding: 0px;
+  border-bottom: 2px solid blueviolet;
+}
+
+span {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: serif;
+  color: #0A66C2;
+}
+
+.top-header {
+  padding: 4px 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F0EC;
+}
+.top-header .logo {
+  font-size: 25px;
+  font-family: serif;
+}
+.top-header .socila-media {
+  color: red;
+  font-size: 20px;
+}
+.top-header .socila-media .media-icon {
+  padding-left: 0px;
+  color: #0A66C2;
+}
+.top-header .socila-media .media-icon .material-icons {
+  color: rgb(122, 206, 109);
+}
+.top-header .socila-media .media-icon .material-icons:hover {
+  color: #0A66C2;
+  cursor: pointer;
+}
+
+/* CSS */
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  padding: 2px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.navbar-toggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navbar-toggler .navbar-toggler-icon {
+  padding-top: 5px;
+}
+.navbar-toggler .navbar-toggler-icon:hover {
+  color: blue;
+}
+
+.navbar-nav {
+  padding: 0%;
+}
+.navbar-nav .nav-item {
+  padding-left: 15px;
+}
+
+@media (min-width: 925px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: black !important;
+  }
+}
+@media (min-width: 622px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: black;
+  }
+}
+@media (min-width: 325px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: black;
+  }
+}
+.bgimg .carousel-inner .carousel-item {
+  max-height: 80vh;
+}
+.bgimg .carousel-inner .carousel-item img {
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(50%);
+}
+
+.about-main-point {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-main-point .main-details .details-p {
+  word-spacing: 3px;
+}/*# sourceMappingURL=style.css.map */
